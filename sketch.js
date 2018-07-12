@@ -16,9 +16,11 @@ function keyPressed() {
     case 32:
       background(255);
       break;
+    case 87:
     case UP_ARROW:
       size += 10;
       break;
+    case 83:
     case DOWN_ARROW:
       size -= 10;
       break;
